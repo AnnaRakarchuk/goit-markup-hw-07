@@ -157,7 +157,7 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.navigation-list__link.current::after{
+.navigation-list__link.navigation-list__link--current::after{
   position: absolute;
   bottom: 0;
   left: 0;
