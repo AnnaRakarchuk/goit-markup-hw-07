@@ -524,7 +524,7 @@ color: var(--main-txt-cl);
 .benefits-list {
   display: flex;
 }
-.benefits-item {
+.benefits-list__item {
   width: 270px;
   margin-right: 30px;
 }
@@ -535,11 +535,11 @@ color: var(--main-txt-cl);
   border-radius: 4px;
 }
 
-.benefits-item:last-child {
+.benefits-list__item:last-child {
   margin-right: 0;
 }
 
-.benefits-title {
+.benefits-list__title {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -549,7 +549,7 @@ color: var(--main-txt-cl);
   text-transform: uppercase;
   color: var(--secondary-txt-cl);
 }
-.benefits-text {
+.benefits-list__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
